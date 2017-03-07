@@ -24,7 +24,7 @@ var ChartBox = React.createClass({
   render: function () {
     return (
       <div className = "chart-area">
-      <h1>UK CHART</h1>
+      <h1>UK CHART IS SHITE!!!</h1>
       <ChartList songs = {this.state.songs} />
       </div>
       );

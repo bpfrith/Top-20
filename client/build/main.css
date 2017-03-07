@@ -1,0 +1,53 @@
+body{
+  font-family: futura;
+  background-color: #B7D6E4;
+}
+
+h2{
+  margin-right: 30px;
+  border: solid 1px black;
+  border-radius: 100px;
+  padding: 30px;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover{
+  color: white;
+}
+
+.song{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+}
+
+.detail{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.chart-area{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+img{
+  margin: 5px;
+  margin-right: 20px;
+}
